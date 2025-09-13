@@ -1,2 +1,64 @@
-# DBMS
-Practice SQL queries and database design while learning DBMS concepts.
+# DAY 1 - What is a database and SQL  
+
+## Learning  
+- What is a Database?  
+- DBMS vs RDBMS  
+- What is SQL (DDL, DML, DQL)?  
+- What is a SQL query?  
+- Researched which DB to use → MySQL  
+
+## Task  
+- Installed MySQL + MySQL Workbench (client tool)  
+- Created a new database: School_DB using CLI  
+- Exported the database using mysqldump  
+& "C:\Program Files\MySQL\MySQL Server 9.3\bin\mysqldump.exe" -u root -p school_db > "D:\git repo\DBMS\school_db.sql"  
+- Saved the query and pushed it to the repo  
+
+---
+
+# DAY 2 - Creating a table  
+
+## Learning  
+- What is a Table?  
+- How it helps, why and where we can use it  
+- All Datatypes (INT, VARCHAR, DATE, etc.)  
+- Primary Key and Secondary Key  
+
+## Task  
+- Created student table with the below constraints  
+CREATE TABLE student (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  age INT,
+  course VARCHAR(50),
+  enrollment_date DATE
+);  
+
+- Explanation:  
+  - id → unique identifier for each student (Primary Key)  
+  - name → student’s name (VARCHAR 50)  
+  - age → student’s age (INT)  
+  - course → course student enrolled in  
+  - enrollment_date → when student joined (DATE)  
+- Saved the SQL file and pushed it to the repo  
+
+---
+
+# DAY 3  
+
+## Learning  
+- how to insert data into a table (INSERT INTO)  
+- How to see the data in a table (SELECT - basics)  
+- How to filter while retrieving data from a table (WHERE - =, >, <, LIKE, etc.)  
+
+## Task  
+- note-- you are only going to use the CLI tool (MySQL Workbench) for all the querying  
+- fix your readme file  
+- insert at least 8 students into the student table  
+- try retrieving data as follows  
+  - get the list of all students from student table  
+  - find students older than 18  
+  - find students enrolled in cs  
+  - find students whose name starts with A  
+- Create two diff Sql files one for insert and one for retrieving the data  
+- push all the queries into the git repo  
