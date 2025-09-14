@@ -1,0 +1,4 @@
+ALTER TABLE student
+ADD adress VARCHAR(255);
+ALTER TABLE student
+DROP COLUMN adress;
