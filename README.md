@@ -62,3 +62,18 @@ CREATE TABLE student (
   - find students whose name starts with A  
 - Create two diff Sql files one for insert and one for retrieving the data  
 - push all the queries into the git repo  
+
+# DAY 4
+## LEARNING
+## UPDATING AND DELETING A TABLE
+- How to update a table (everything)
+- How to delete a table and table components
+- Why "WHERE" is important 
+
+##TASKS
+- update two students ages 
+-delete one student from the table
+- add a new column called adress in the student table
+- delete the newly created column adress from the student table 
+- What happens if you run "DELETE FROM student" without a WHERE clause
+- save and push queries to repo  
