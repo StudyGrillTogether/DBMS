@@ -77,3 +77,20 @@ CREATE TABLE student (
 - delete the newly created column adress from the student table 
 - What happens if you run "DELETE FROM student" without a WHERE clause
 - save and push queries to repo  
+
+# DAY 5
+## LEARNING
+- Apply all constraints and add into sql file
+- how to manipulate column conditions with constraints like ex(make a column with age less than 18)
+- how to bring bringback(rollback) synced code in github
+-  revise
+- Sorting and Limiting 
+ 
+## Learning :
+- How to sort the selects while getting the data from a table?
+- What is LIMIT in SQL? What are all the different ways to limit the data while getting it from the table?
+
+## Task:
+- List students alphabetically by name from the students table.
+- List students by the descending order by age
+- Show the TOP 3 oldest students from the table
