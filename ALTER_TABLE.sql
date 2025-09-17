@@ -12,3 +12,5 @@ ALTER TABLE student
 MODIFY COLUMN DateOFbirth year;
 ALTER TABLE student 
 DROP COLUMN DateOFbirth;
+ALTER TABLE student
+RENAME COLUMN curr_course to course;
