@@ -4,4 +4,10 @@ DROP DATABASE school_db; -- drops existing database
 SELECT * FROM student
 WHERE name IS NULL;
 SELECT DISTINCT course,age FROM student;
+CREATE TABLE courses(
+course_id INT PRIMARY KEY,
+course_name VARCHAR(50),
+Teacher VARCHAR(50)
+);
+
 

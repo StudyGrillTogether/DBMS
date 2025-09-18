@@ -14,3 +14,10 @@ ALTER TABLE student
 DROP COLUMN DateOFbirth;
 ALTER TABLE student
 RENAME COLUMN curr_course to course;
+ALTER TABLE student
+DROP COLUMN course;
+ALTER TABLE student
+ADD course_id INT;
+ALTER TABLE student
+ADD CONSTRAINT fk_student_course
+FOREIGN KEY (course_id) REFERENCES courses(course_id);

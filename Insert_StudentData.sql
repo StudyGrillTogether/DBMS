@@ -16,4 +16,22 @@ VALUES
 (14,'swahili',14,'Architecture','2020-04-05'),
 (15,'sandali',24,'chemistry','2023-02-05'),
 (16,'sanyuja',28,'Physics','2021-09-05');
+INSERT INTO courses (course_id, course_name, teacher)
+VALUES
+(301, 'Computer Science', 'Dr. Sharma'),
+(302, 'Biology', 'Dr. Reddy'),
+(303, 'History', 'Dr. Singh'),
+(304, 'Architecture', 'Ms. Shah'),
+(305, 'Physics', 'Prof. Patel'),
+(306, 'Chemistry', 'Dr. Agarwal'),
+(307, 'Computer Science', 'Prof. Iyer'),
+(308, 'Biology', 'Prof. Menon'),
+(309, 'History', 'Mr. Kumar'),
+(310, 'Physics', 'Ms. Das'),
+(311, 'Chemistry', 'Ms. Choudhary'),
+(312, 'Computer Science', 'Ms. Gupta'),
+(313, 'Biology', 'Dr. Naidu'),
+(314, 'History', 'Mr. Joshi'),
+(315, 'Architecture', 'Mr. Rao'),
+(316, 'Chemistry', 'Dr. Verma');
 

@@ -10,5 +10,6 @@ SELECT * FROM student
 WHERE age=19 and course='physics';
 SELECT * FROM student
 WHERE course = 'computerscience' AND name LIKE 'A%'
-ORDER BY age DESC ;
+ORDER BY age DESC 
+LIMIT 3;
 
