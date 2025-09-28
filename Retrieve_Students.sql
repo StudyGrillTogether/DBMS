@@ -19,6 +19,7 @@ SELECT * FROM student
 WHERE age>25 AND course='computerscience';
 SELECT * FROM student
 WHERE age>25 or course='History';
+SELECT * FROM courses;
 
 
 
