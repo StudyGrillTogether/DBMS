@@ -9,5 +9,6 @@ course_id INT PRIMARY KEY,
 course_name VARCHAR(50),
 Teacher VARCHAR(50)
 );
+SELECT * FROM courses
 
 
