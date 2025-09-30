@@ -94,3 +94,35 @@ CREATE TABLE student (
 - List students alphabetically by name from the students table.
 - List students by the descending order by age
 - Show the TOP 3 oldest students from the table
+# DAY 6
+## LEARNING
+- how to revert a specific file in a commit message
+ ##  DATABASE design and normalization theory
+- what is DATA REDUNDANCY
+- Whar are UPDATE,DELETE,INSERT anomalies
+- What is database normalization
+- Learn about 1NF,2NF,3NF
+-PRIMARY VS FOREIGN KEY
+ ##Tasks
+- Create a table called courses 
+ -- course id INT PRIMARY KEY,
+-- course_name VARCAHR(50),
+   Teacher VARCHAR(50),
+ -  redesign students table based on the above table ccreated (courses) 
+s
+# DAY 7
+
+## JOINS ***
+- What is a join 
+- what are all the different type of joins
+- INNER JOIN( every possible way to do inner join)
+- LEFT JOIN Vs RIGHT JOIN(Every possible way to use both joins)
+## Tasks
+- INSERT more sample data in studdent and courses table 
+- SHOW each student's name along with their course name 
+- list all students ( even if no course is assigned)
+- list all courses (even if no students is enrolled)
+- when inserting sample data make sure it alligns with tasks
+- show each student who belongs to course computer science 
+- show me the course name for students aged between 14-18;
+
