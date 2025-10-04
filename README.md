@@ -126,3 +126,24 @@ s
 - show each student who belongs to course computer science 
 - show me the course name for students aged between 14-18;
 
+
+Day 7 - Aggregates 
+1. Learn all Aggregates in Sql and there usage.
+2. What is group by and how it help in queries
+3. Having vs Where 
+
+TASK
+1. Count how many students are in each course
+2. Find average age per course
+3. Show courses with more than 2 students
+4. Show students grouped by courses
+
+Day 8 - Subqueries
+1. What is subquery?
+2. How subqueries are implemented?
+3. How they differ from joins?
+4. Subqueries in WHERE
+
+TASK:
+1. Find students older than the average student age.
+2. Find courses that have students older than 20
